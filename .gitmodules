@@ -1,0 +1,7 @@
+[submodule "themes/elephants"]
+	path = themes/elephants
+	url = https://gitlab.com/meibenny/elephants.git
+[submodule "public"]
+	path = public
+	url = git@github.com:DhritiShikhar/DhritiShikhar.github.io.git
+	branch = master

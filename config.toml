@@ -1,0 +1,11 @@
+baseURL = "http://dhritishikhar.com/"
+languageCode = "en-us"
+title = "Dhriti Shikhar"
+theme = "elephants"
+contentDir = "content"
+publishDir = "DhritiShikhar.github.io"
+
+
+[params]
+	author = "Dhriti Shikhar"
+	sitename = "Dhriti Shikhar"
