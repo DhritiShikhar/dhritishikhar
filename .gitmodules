@@ -5,3 +5,7 @@
 	path = public
 	url = git@github.com:DhritiShikhar/DhritiShikhar.github.io.git
 	branch = master
+[submodule "DhritiShikhar.github.io"]
+	path = DhritiShikhar.github.io
+	url = https://github.com/DhritiShikhar/DhritiShikhar.github.io.git
+	branch = master
