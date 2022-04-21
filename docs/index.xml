@@ -12,7 +12,7 @@
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0530</pubDate>
       
       <guid>http://dhritishikhar.com/2/</guid>
-      <description>Table of Contents  Introduction Contact  Introduction Contact </description>
+      <description>Table of Contents  Introduction Contact  Introduction </description>
     </item>
     
     <item>
@@ -23,6 +23,15 @@
       <guid>http://dhritishikhar.com/1/</guid>
       <description>Table of Contents  Introduction Contact  Introduction My name is Dhriti Shikhar. I am a computer programmer. This blog is a collection of some of my learnings.
 Contact  Email: dhriti [DOT] shikhar [DOT] rokz [AT] gmail [DOT] com Github: https://github.com/DhritiShikhar/ Twitter: https://twitter.com/dhritishikhar/  </description>
+    </item>
+    
+    <item>
+      <title>OKD</title>
+      <link>http://dhritishikhar.com/3/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0530</pubDate>
+      
+      <guid>http://dhritishikhar.com/3/</guid>
+      <description>Table of Contents  Introduction How to setup a cluster Additional resource  Introduction </description>
     </item>
     
   </channel>
