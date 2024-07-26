@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes on Dhriti Shikhar</title>
-    <link>http://localhost:1313/kubernetes/</link>
+    <link>https://dhritishikhar.github.io/kubernetes/</link>
     <description>Recent content in Kubernetes on Dhriti Shikhar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/kubernetes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kubernetes Blog 1</title>
-      <link>http://localhost:1313/kubernetes/1/</link>
-      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kubernetes/1/</guid>
-      <description>Introduction Kubernetes Blog 1</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://dhritishikhar.github.io/kubernetes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
