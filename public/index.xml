@@ -4,17 +4,10 @@
     <title>Dhriti Shikhar</title>
     <link>https://dhritishikhar.github.io/</link>
     <description>Recent content on Dhriti Shikhar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Aug 2022 21:30:04 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dhritishikhar.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Concurrency vs Parallelism</title>
-      <link>https://dhritishikhar.github.io/golang/4/</link>
-      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://dhritishikhar.github.io/golang/4/</guid>
-      <description>Table of contents Introduction Similarity between concurrency and parallelism Concurrency Parallelism Introduction Similarity between concurrency and parallelism Both concurrency and parallelism are about handling multiple things Concurrency Parallelism </description>
-    </item>
     <item>
       <title>Kubernetes Blog 1</title>
       <link>https://dhritishikhar.github.io/kubernetes/1/</link>
@@ -30,25 +23,11 @@
       <description>Introduction Main blog 1</description>
     </item>
     <item>
-      <title>Golang Concurrency</title>
-      <link>https://dhritishikhar.github.io/golang/1/</link>
-      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://dhritishikhar.github.io/golang/1/</guid>
-      <description>Table of contents Introduction Sigle Sequential Program Multiple Sequential Programs Single Concurrent Program Multiple Concurrent Programs Introduction Reference </description>
-    </item>
-    <item>
-      <title>Golang Concurrency Patterns - Overview</title>
-      <link>https://dhritishikhar.github.io/golang/3/</link>
-      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://dhritishikhar.github.io/golang/3/</guid>
-      <description>Table of contents Introduction Worker Pool Pattern Pipeline Pattern Fan-out/Fan-in Pattern Mutex Pattern Semaphore Pattern Barrier Pattern WaitGroup Pattern Stopping short Digesting a tree Parallel digestion Bounded parallelism Reference Introduction What is Golang Concurrency Worker pool pattern Pipeline pattern Fan-out pattern Fan-in patterm Mutex pattern Semaphore pattern Barrier pattern Reference </description>
-    </item>
-    <item>
-      <title>CLI Application in Golang</title>
-      <link>https://dhritishikhar.github.io/golang/2/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://dhritishikhar.github.io/golang/2/</guid>
-      <description>Introduction Golang Blog 2</description>
+      <title>Limit concurrency</title>
+      <link>https://dhritishikhar.github.io/golang/post-1/1/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://dhritishikhar.github.io/golang/post-1/1/</guid>
+      <description>Table of contents Introduction Problem statement How to limit number of goroutines started&#xA;package main import ( &amp;#34;fmt&amp;#34; &amp;#34;sync&amp;#34; ) func main() { var wg sync.WaitGroup totalGoRoutines := 5 fmt.Println(&amp;#34;Start\n&amp;#34;) for i := 0; i &amp;lt; totalGoRoutines; i++ { wg.Add(1) go printCount(i, &amp;amp;wg) } wg.Wait() fmt.Println(&amp;#34;\n\nDone!&amp;#34;) } func printCount(count int, wg *sync.WaitGroup) { defer wg.Done() fmt.Printf(&amp;#34;Count: %d\n&amp;#34;, count) } Output:&#xA;Reference </description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dhritishikhar.github.io/golang/4/</loc>
-    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dhritishikhar.github.io/golang/</loc>
-    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dhritishikhar.github.io/kubernetes/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,14 +11,14 @@
     <loc>https://dhritishikhar.github.io/1/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhritishikhar.github.io/golang/1/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
+    <loc>https://dhritishikhar.github.io/golang/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhritishikhar.github.io/golang/3/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <loc>https://dhritishikhar.github.io/golang/post-1/1/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dhritishikhar.github.io/golang/2/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://dhritishikhar.github.io/posts/</loc>
+    <lastmod>2023-01-01T10:28:10+08:00</lastmod>
   </url><url>
     <loc>https://dhritishikhar.github.io/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
