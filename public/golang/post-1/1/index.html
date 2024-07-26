@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-us"><head>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="Table of contents Introduction Problem statement How to limit number of goroutines started
-package main import ( &#34;fmt&#34; &#34;sync&#34; ) func main() { var wg sync.WaitGroup totalGoRoutines := 5 fmt.Println(&#34;Start\n&#34;) for i := 0; i &lt; totalGoRoutines; i&#43;&#43; { wg.Add(1) go counter(i, &amp;wg) } wg.Wait() fmt.Println(&#34;\n\nDone!&#34;) } // Prints count number func counter(count int, wg *sync.WaitGroup) { defer wg.Done() fmt.Printf(&#34;Count: %d\n&#34;, count) } Output:
-Reference ">  
+   <meta name="description" content="Table of contents Introduction Solution Introduction Usually, options to limit number of goroutines are:
+For Loop Semaphores But, How to limit number of goroutines from inside an infinite loop?
+package main import ( &#34;fmt&#34; &#34;sync&#34; ) func main() { var wg sync.WaitGroup totalGoRoutines := 5 fmt.Println(&#34;Start\n&#34;) for i := 0; i &lt; totalGoRoutines; i&#43;&#43; { wg.Add(1) go counter(i, &amp;wg) } wg.Wait() fmt.Println(&#34;\n\nDone!&#34;) } // Prints count number func counter(count int, wg *sync.">  
 
   <title>
     
@@ -18,7 +18,7 @@ Reference ">
   
   
   
-  <link rel="stylesheet" href="/css/main.c5af9bae99b4a3d315b9f39305ffff27e9c3383fbbfd8b5fcaf2237667021a333a982fb958d1813a720b0a660b14022337553ae1ca93ef2ee17c4ae628ac19cb.css" integrity="sha512-xa&#43;brpm0o9MVufOTBf//J&#43;nDOD&#43;7/YtfyvIjdmcCGjM6mC&#43;5WNGBOnILCmYLFAIjN1U64cqT7y7hfErmKKwZyw==" />
+  <link rel="stylesheet" href="/css/main.01273a70fa873b012d056499c16bb47955e0e7526c34edb73f05ca8f99f488ebc323423c6557f93f9b42a41de0448a25ce9a1ab577d0bf61e36eaf52a4979a1d.css" integrity="sha512-ASc6cPqHOwEtBWSZwWu0eVXg51JsNO23PwXKj5n0iOvDI0I8ZVf5P5tCpB3gRIolzpoatXfQv2Hjbq9SpJeaHQ==" />
   
 </head>
 <body a="auto">
@@ -41,9 +41,15 @@ Reference ">
     <h2 id="table-of-contents">Table of contents</h2>
 <ol>
 <li>Introduction</li>
+<li>Solution</li>
 </ol>
-<h1 id="problem-statement">Problem statement</h1>
-<p>How to limit number of goroutines started</p>
+<h1 id="introduction">Introduction</h1>
+<p>Usually, options to limit number of goroutines are:</p>
+<ol>
+<li>For Loop</li>
+<li>Semaphores</li>
+</ol>
+<p>But, How to limit number of goroutines from inside an infinite loop?</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
@@ -74,11 +80,15 @@ Reference ">
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Output:</p>
 <p><img src="/golang/post-1/1.png" alt="images"></p>
-<h1 id="reference">Reference</h1>
+<p>In above scenario, all goroutines were started simultaneously.</p>
+<p>I want to:</p>
 <ol>
-<li></li>
+<li>start <code>n</code> goroutines simultaneously</li>
+<li>wait</li>
+<li>start another set of <code>n</code> goroutines simultaneously</li>
 </ol>
-
+<h1 id="solution">Solution</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"></code></pre></div>
 </article>
 
             </div>

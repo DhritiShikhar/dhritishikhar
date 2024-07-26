@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes on Dhriti Shikhar</title>
-    <link>https://dhritishikhar.github.io/kubernetes/</link>
+    <link>http://localhost:1313/kubernetes/</link>
     <description>Recent content in Kubernetes on Dhriti Shikhar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://dhritishikhar.github.io/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/kubernetes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

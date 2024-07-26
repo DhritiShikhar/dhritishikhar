@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golangs on Dhriti Shikhar</title>
-    <link>https://dhritishikhar.github.io/golang/</link>
+    <link>http://localhost:1313/golang/</link>
     <description>Recent content in Golangs on Dhriti Shikhar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dhritishikhar.github.io/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Limit concurrency</title>
-      <link>https://dhritishikhar.github.io/golang/post-1/1/</link>
+      <link>http://localhost:1313/golang/post-1/1/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://dhritishikhar.github.io/golang/post-1/1/</guid>
+      <guid>http://localhost:1313/golang/post-1/1/</guid>
       <description>Table of contents Introduction Problem statement How to limit number of goroutines started&#xA;package main import ( &amp;#34;fmt&amp;#34; &amp;#34;sync&amp;#34; ) func main() { var wg sync.WaitGroup totalGoRoutines := 5 fmt.Println(&amp;#34;Start\n&amp;#34;) for i := 0; i &amp;lt; totalGoRoutines; i++ { wg.Add(1) go counter(i, &amp;amp;wg) } wg.Wait() fmt.Println(&amp;#34;\n\nDone!&amp;#34;) } // Prints count number func counter(count int, wg *sync.WaitGroup) { defer wg.Done() fmt.Printf(&amp;#34;Count: %d\n&amp;#34;, count) } Output:&#xA;Reference </description>
     </item>
   </channel>
