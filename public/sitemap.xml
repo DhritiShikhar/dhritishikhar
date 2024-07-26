@@ -5,7 +5,16 @@
     <loc>https://example.org/golang/1/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/golang/2/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.org/golang/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/kubernetes/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/kubernetes/1/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/1/</loc>

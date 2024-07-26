@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Dhriti Shikhar</title>
+    <link>https://example.org/kubernetes/</link>
+    <description>Recent content in Kubernetes on Dhriti Shikhar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Blog 1</title>
+      <link>https://example.org/kubernetes/1/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/kubernetes/1/</guid>
+      <description>Introduction Kubernetes Blog 1</description>
+    </item>
+  </channel>
+</rss>

@@ -16,6 +16,20 @@
       <description>Introduction Golang Blog 1</description>
     </item>
     <item>
+      <title>Golang Blog 2</title>
+      <link>https://example.org/golang/2/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/golang/2/</guid>
+      <description>Introduction Golang Blog 2</description>
+    </item>
+    <item>
+      <title>Kubernetes Blog 1</title>
+      <link>https://example.org/kubernetes/1/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/kubernetes/1/</guid>
+      <description>Introduction Kubernetes Blog 1</description>
+    </item>
+    <item>
       <title>Main blog 1</title>
       <link>https://example.org/1/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
