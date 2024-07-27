@@ -13,7 +13,7 @@
       <link>https://dhritishikhar.github.io/golang/post-1/2/</link>
       <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://dhritishikhar.github.io/golang/post-1/2/</guid>
-      <description></description>
+      <description>Table of contents Introduction Introduction // An example of empty slices package main import &amp;#34;fmt&amp;#34; func main() { var a []int fmt.Printf(&amp;#34;\nA: %s&amp;#34;, a) b := []int{} fmt.Printf(&amp;#34;\nB: %s&amp;#34;, b) c := make([]int, 0) fmt.Printf(&amp;#34;\nC: %s&amp;#34;, c) d := make([]int, 0, 1) fmt.Printf(&amp;#34;\nD: %s\n&amp;#34;, d) } a is initialized with zero value for slices&#xA;b is slice literal with zero elements&#xA;c is created using make() function with size 0</description>
     </item>
     <item>
       <title>Hello</title>

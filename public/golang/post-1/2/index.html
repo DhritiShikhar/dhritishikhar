@@ -3,7 +3,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="">  
+   <meta name="description" content="Table of contents Introduction Introduction // An example of empty slices package main import &#34;fmt&#34; func main() { var a []int fmt.Printf(&#34;\nA: %s&#34;, a) b := []int{} fmt.Printf(&#34;\nB: %s&#34;, b) c := make([]int, 0) fmt.Printf(&#34;\nC: %s&#34;, c) d := make([]int, 0, 1) fmt.Printf(&#34;\nD: %s\n&#34;, d) } a is initialized with zero value for slices
+b is slice literal with zero elements
+c is created using make() function with size 0">  
 
   <title>
     
@@ -36,7 +38,47 @@
 
     
 
-    
+    <h1 id="table-of-contents">Table of contents</h1>
+<ol>
+<li>Introduction</li>
+</ol>
+<h1 id="introduction">Introduction</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">// An example of empty slices
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> []<span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;\nA: %s&#34;</span>, <span style="color:#a6e22e">a</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">b</span> <span style="color:#f92672">:=</span> []<span style="color:#66d9ef">int</span>{}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;\nB: %s&#34;</span>, <span style="color:#a6e22e">b</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">c</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">int</span>, <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;\nC: %s&#34;</span>, <span style="color:#a6e22e">c</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">d</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">int</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;\nD: %s\n&#34;</span>, <span style="color:#a6e22e">d</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ol>
+<li>
+<p><code>a</code> is initialized with zero value for slices</p>
+</li>
+<li>
+<p><code>b</code> is slice literal with zero elements</p>
+</li>
+<li>
+<p><code>c</code> is created using <code>make()</code> function with size <code>0</code></p>
+</li>
+<li>
+<p><code>d</code> is created using <code>make()</code> function with size <code>0</code> and capacity <code>1</code></p>
+</li>
+</ol>
+<p>Output:</p>
+<p><img src="/golang/post-2/1.png" alt="images"></p>
+
 </article>
 
             </div>
