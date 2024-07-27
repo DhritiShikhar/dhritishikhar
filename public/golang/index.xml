@@ -6,8 +6,15 @@
     <description>Recent content in Golangs on Dhriti Shikhar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dhritishikhar.github.io/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empty slices</title>
+      <link>https://dhritishikhar.github.io/golang/post-1/2/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://dhritishikhar.github.io/golang/post-1/2/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Limit concurrency</title>
       <link>https://dhritishikhar.github.io/golang/post-1/1/</link>
