@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/dhritishikhar/Documents/repos/dhritishikhar",
+	"sourceRoot": "/home/dhritishikhar/Documents/repos/github/dhriti-website-stuff/dhritishikhar",
 	"sources": [
 		"themes/nostyleplease/assets/css/main.scss"
 	],
